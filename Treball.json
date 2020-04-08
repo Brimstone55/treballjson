@@ -1,0 +1,605 @@
+{
+    "agregadores":[{
+        "id":1,
+        "nombre":"HRS",
+        "comision":{
+            "moneda":"EUR",
+            "valor":10
+    }},
+    {
+        "id":2,
+        "nombre":"FPS",
+        "comision":{
+            "moneda":"EUR",
+            "valor":12
+    }},
+    {
+        "id":3,
+        "nombre":"LOL",
+        "comision":{
+            "moneda":"EUR",
+            "valor":9
+    }
+    }],
+
+    "hoteles": [{
+        "id":1,
+        "nom":"Raiz",
+        "estrelles":"1",
+        "direccion":"C/ cami dels reis 3",
+        "telefono":"+34684924736",
+        "email":"laraiz@gmail.com",
+        "discapacitados":"no",
+        "habitaciones":[{
+            "id":1,
+            "nombre":"baleares",
+            "servicios": [
+                "ducha"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":2
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":30
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":20
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":2,
+            "nombre":"Madrid",
+            "servicios": [
+                "ducha", "wifi"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":2
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":35
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":25
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":3,
+            "nombre":"Sevilla",
+            "servicios": [
+                "ducha"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":0
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":15
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":10
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        }
+    ]
+    },
+    {
+        "id":2,
+        "nom":"TomeuHotel",
+        "estrelles":"3",
+        "direccion":"C/ Balanguera 6",
+        "telefono":"+34695546369",
+        "email":"tomeucanyelles@gmail.com",
+        "discapacitados":"Si",
+        "habitaciones":[{
+            "id":1,
+            "nombre":"sweet",
+            "servicios": [
+                "ducha", "bañera", "nevera", "cocina"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":2
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":120
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":100
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":2,
+            "nombre":"salad",
+            "servicios": [
+                "ducha", "bañera"
+            ],
+            "camas":{
+                "matrimonio":0,
+                "individual":1
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":60
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":50
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":3,
+            "nombre":"sour",
+            "servicios": [
+                "ducha", "bañera", "nevera", "cocina","jacuzzi"
+            ],
+            "camas":{
+                "matrimonio":2,
+                "individual":1
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":150
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":130
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        }
+    ]
+    },
+    {
+        "id":3,
+        "nom":"Slayer Hotel",
+        "estrelles":"5",
+        "direccion":"C/ Salazar Belmar 4",
+        "telefono":"+34658741359",
+        "email":"salyerhotel@gmail.com",
+        "discapacitados":"Si",
+        "habitaciones":[{
+            "id":1,
+            "nombre":"Roma",
+            "servicios": [
+                "ducha", "bañera", "jacuzzi", "Wifi"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":0
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":490
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":250
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":2,
+            "nombre":"Zoo",
+            "servicios": [
+                "ducha", "bañera", "nevera", "wifi"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":2
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":300
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":150
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        },
+        {
+            "id":3,
+            "nombre":"voopoo",
+            "servicios": [
+                "ducha", "bañera", "terraza", "television"
+            ],
+            "camas":{
+                "matrimonio":1,
+                "individual":2
+            },
+            "preciobase":[{
+                "id":1,
+                "temporada": "alta",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":400
+                }
+            },
+            {
+                "id":2,
+                "temporada": "baja",
+                "precio": {
+                    "moneda":"EUR",
+                    "valor":280
+                }
+            }],
+            "preciototal":[{
+                "precioid":1,
+                "agregadorid":1,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":2,
+                "agregadorid":2,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":3,
+                "agregadorid":3,
+                "tempordaid":1,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":4,
+                "agregadorid":1,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":5,
+                "agregadorid":2,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            },
+            {
+                "precioid":6,
+                "agregadorid":3,
+                "tempordaid":2,
+                "impuestoPorcentaje":21
+            }
+            ]
+
+        }
+    ]
+    }
+    ]
+}
