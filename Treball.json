@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id":2,
+    "id": 2,
     "nombre":"TomeuHotel",
     "estrellas":"3",
     "direccion":"C/ Balanguera 6",
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "id":3,
+    "id": 3,
     "nombre":"Slayer Hotel",
     "estrellas":"2",
     "direccion":"C/ Salazar Belmar 4",
